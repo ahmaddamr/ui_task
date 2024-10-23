@@ -32,7 +32,7 @@ class ContactUsWidget extends StatelessWidget {
         const Positioned(
           top: 0,
           child: Text(
-            'Contact US',
+            'Contact us',
             style: TextStyle(
                 color: Colors.white, fontSize: 28, fontWeight: FontWeight.bold),
           ),

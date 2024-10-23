@@ -29,7 +29,7 @@ class Screen1 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             InkWell(onTap: () {}, child: Image.asset('assets/images/icon.png')),
-            const CustomTextField()
+            const CustomTextField(fillColor: Colors.white,)
           ],
         ),
       ),
